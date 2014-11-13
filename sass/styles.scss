@@ -1,0 +1,248 @@
+@import "bootstrap-compass";
+@import "bootstrap-variables";
+@import "bootstrap";
+@import "font-awesome-compass";
+@import "font-awesome";
+
+@import "compass/css3/border-radius";
+
+@import "_colors";
+@import "_icomoon";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+$mainfont: 'Open Sans', sans-serif;
+
+body, p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+h2{
+  font-size: 50px;
+}
+
+h3{
+  font-size: 32px;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+section {
+  color: $white;
+  font-family: arial;
+  width: 500px;
+  margin: auto;
+  line-height: 20px;
+  font-size: 16px;
+
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.container.small {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+section.module.parallax {
+  height: 600px;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-1 {
+  background-image: url("../images/background2.jpg");
+}
+
+section.module.parallax-laravel {
+  background-image: url("../images/laravelbg.jpg");
+}
+
+section.module.parallax-drupal {
+  background-image: url("../images/background3.jpg");
+}
+
+section.module.parallax-final {
+  background-image: url("../images/final.jpg");
+}
+
+section.info {
+  width: 100%;
+  background-color: $white;
+  color: $grey;
+}
+
+section#intro, section#final {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 34px;
+  }
+
+  div.description {
+    text-transform: uppercase; 
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  div.social {
+    margin-top: 30px;
+
+    font-size: 30px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  }
+
+  a.contact {
+    background: $red;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 0 30px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: lighter;
+    line-height: 42px;
+    text-transform: uppercase;
+  }
+}
+
+section#intro {
+  height: 600px;
+  padding-top: 140px;
+}
+
+section#final {
+  height: 300px;
+  padding-top: 50px;
+
+  a.contact {
+    margin-top: 10px;
+  }
+}
+
+div.info-window {
+  margin-left: 60%;
+  margin-right: 5%;
+
+  width: 35%;
+
+  background-color: rgba(33,33,33,0.8);
+
+  text-align: left;
+
+  padding: 20px;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+section.quote {
+  background-color: #3498db;
+
+  padding: 150px 0;
+  width: 100%;
+
+  h2, h3 {
+    text-align: center;
+  }
+}
+
+section#experience, section#education {
+  h2 {
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+
+  .row {
+    margin-bottom: 40px;
+  }
+
+  .role {
+    font-family: $mainfont;
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 12px;
+  }
+
+  .circle {
+    width: 80%;
+
+    margin-top: 2px;
+  }
+
+  .circle:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+
+    background: $turquoise; 
+  }
+
+  .circle.vt4:after {
+    background: url('../images/vt4.jpg');
+  }
+
+  .circle.vier:after {
+    background: url('../images/vier.jpg');
+  }
+
+  .circle.diamond:after {
+    background: url('../images/diamond.jpg');
+  }
+
+  .circle div {
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:white;
+
+    font-family: $mainfont;
+    font-size: 22px;
+    font-weight: 100;
+  }
+}
+
+.caption {
+  font-style: italic;
+  font-size: 14px;
+}

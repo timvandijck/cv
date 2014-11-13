@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?dr6mw6');
+  src:url('../fonts/icomoon.eot?#iefixdr6mw6') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?dr6mw6') format('woff'),
+    url('../fonts/icomoon.ttf?dr6mw6') format('truetype'),
+    url('../fonts/icomoon.svg?dr6mw6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-drupal:before {
+  content: "\e600";
+}
+.icon-github:before {
+  content: "\e601";
+}
+.icon-wordpress:before {
+  content: "\e602";
+}
+.icon-star:before {
+  content: "\e60e";
+}
+.icon-star2:before {
+  content: "\e60f";
+}
+.icon-tools:before {
+  content: "\e603";
+}
+.icon-trophy:before {
+  content: "\e604";
+}
+.icon-rocket:before {
+  content: "\e605";
+}
+.icon-code:before {
+  content: "\e606";
+}
+.icon-book:before {
+  content: "\e607";
+}
+.icon-github2:before {
+  content: "\e608";
+}
+.icon-twitter:before {
+  content: "\e609";
+}
+.icon-linkedin:before {
+  content: "\e60a";
+}
+.icon-dribbble:before {
+  content: "\e60b";
+}
+.icon-instagram:before {
+  content: "\e60c";
+}
+.icon-skype:before {
+  content: "\e60d";
+}
