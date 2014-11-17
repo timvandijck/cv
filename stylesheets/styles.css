@@ -10987,7 +10987,7 @@ section#experience h2, section#education h2 {
 /* line 183, ../sass/styles.scss */
 section#experience h3, section#education h3 {
   font-size: 40px;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 /* line 188, ../sass/styles.scss */
 section#experience .row, section#education .row {
