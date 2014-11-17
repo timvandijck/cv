@@ -246,3 +246,18 @@ section#experience, section#education {
   font-style: italic;
   font-size: 14px;
 }
+
+@media only screen and (max-width:630px) {
+  div.info-window {
+    margin: 0px 10% 0px 10%;
+    width: 80%;
+  }
+
+  section#experience .circle div, section#education .circle div {
+    font-size: 16px;
+  }
+
+  section#skills {
+    text-align: center;
+  }
+}

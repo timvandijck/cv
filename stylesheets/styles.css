@@ -8033,8 +8033,8 @@ button.close {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?1409202988);
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?&1409202988#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff?1409202988) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?1409202988) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?1409202988#fontawesomeregular) format("svg");
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?1415962641);
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?&1415962641#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff?1415962641) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?1415962641) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?1415962641#fontawesomeregular) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -11047,4 +11047,22 @@ section#experience .circle div, section#education .circle div {
 .caption {
   font-style: italic;
   font-size: 14px;
+}
+
+@media only screen and (max-width: 630px) {
+  /* line 251, ../sass/styles.scss */
+  div.info-window {
+    margin: 0px 10% 0px 10%;
+    width: 80%;
+  }
+
+  /* line 256, ../sass/styles.scss */
+  section#experience .circle div, section#education .circle div {
+    font-size: 16px;
+  }
+
+  /* line 260, ../sass/styles.scss */
+  section#skills {
+    text-align: center;
+  }
 }
