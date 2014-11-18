@@ -10814,30 +10814,32 @@ body, p {
   font-weight: lighter;
   font-size: 18px;
   line-height: 26px;
+  text-shadow: 0 1px rgba(128, 128, 128, 0.32);
 }
 
-/* line 23, ../sass/styles.scss */
-h2, h3 {
+/* line 24, ../sass/styles.scss */
+h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
+  text-shadow: 0 1px rgba(128, 128, 128, 0.32);
 }
 
-/* line 28, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 h2 {
   font-size: 50px;
 }
 
-/* line 32, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 h3 {
   font-size: 32px;
 }
 
-/* line 36, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 h4 {
   margin-bottom: 0;
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 section {
   color: #F2F2F2;
   font-family: arial;
@@ -10849,13 +10851,13 @@ section {
   padding-top: 100px;
 }
 
-/* line 52, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 .container.small {
   padding-left: 10%;
   padding-right: 10%;
 }
 
-/* line 57, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 section.module.parallax {
   height: 600px;
   width: 100%;
@@ -10865,47 +10867,47 @@ section.module.parallax {
   background-size: cover;
 }
 
-/* line 66, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 section.module.parallax-1 {
   background-image: url("../images/background2.jpg");
 }
 
-/* line 70, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 section.module.parallax-laravel {
   background-image: url("../images/laravelbg.jpg");
 }
 
-/* line 74, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 section.module.parallax-drupal {
   background-image: url("../images/background3.jpg");
 }
 
-/* line 78, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 section.module.parallax-final {
   background-image: url("../images/final.jpg");
 }
 
-/* line 82, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 section.info {
   width: 100%;
   background-color: #F2F2F2;
   color: #333333;
 }
 
-/* line 88, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
 section#intro, section#final {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-/* line 95, ../sass/styles.scss */
+/* line 97, ../sass/styles.scss */
 section#intro h1, section#final h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   font-size: 34px;
 }
-/* line 101, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 section#intro div.description, section#final div.description {
   text-transform: uppercase;
   font-size: 18px;
@@ -10913,18 +10915,18 @@ section#intro div.description, section#final div.description {
   font-weight: lighter;
   font-family: 'Open Sans', sans-serif;
 }
-/* line 109, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 section#intro div.social, section#final div.social {
   margin-top: 30px;
   font-size: 30px;
 }
-/* line 114, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 section#intro div.social a, section#final div.social a {
   color: white;
   text-decoration: none;
   margin: 0 10px;
 }
-/* line 121, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 section#intro a.contact, section#final a.contact {
   background: #e74c3c;
   color: white;
@@ -10937,25 +10939,32 @@ section#intro a.contact, section#final a.contact {
   font-weight: lighter;
   line-height: 42px;
   text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+/* line 139, ../sass/styles.scss */
+section#intro a.contact:hover, section#final a.contact:hover {
+  background-color: #993126;
+  cursor: pointer;
 }
 
-/* line 136, ../sass/styles.scss */
+/* line 146, ../sass/styles.scss */
 section#intro {
   height: 600px;
   padding-top: 140px;
 }
 
-/* line 141, ../sass/styles.scss */
+/* line 151, ../sass/styles.scss */
 section#final {
   height: 300px;
   padding-top: 50px;
 }
-/* line 145, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 section#final a.contact {
   margin-top: 10px;
 }
 
-/* line 150, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 div.info-window {
   margin-left: 60%;
   margin-right: 5%;
@@ -10964,48 +10973,48 @@ div.info-window {
   text-align: left;
   padding: 20px;
 }
-/* line 162, ../sass/styles.scss */
+/* line 172, ../sass/styles.scss */
 div.info-window h2 {
   margin-top: 0;
 }
 
-/* line 167, ../sass/styles.scss */
+/* line 177, ../sass/styles.scss */
 section.quote {
   background-color: #3498db;
   padding: 150px 0;
   width: 100%;
 }
-/* line 173, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 section.quote h2, section.quote h3 {
   text-align: center;
 }
 
-/* line 179, ../sass/styles.scss */
+/* line 189, ../sass/styles.scss */
 section#experience h2, section#education h2 {
   text-align: left;
 }
-/* line 183, ../sass/styles.scss */
+/* line 193, ../sass/styles.scss */
 section#experience h3, section#education h3 {
   font-size: 40px;
   margin-top: 20px;
 }
-/* line 188, ../sass/styles.scss */
+/* line 198, ../sass/styles.scss */
 section#experience .row, section#education .row {
   margin-bottom: 40px;
 }
-/* line 192, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 section#experience .role, section#education .role {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 100;
   margin-bottom: 12px;
 }
-/* line 199, ../sass/styles.scss */
+/* line 209, ../sass/styles.scss */
 section#experience .circle, section#education .circle {
   width: 80%;
   margin-top: 2px;
 }
-/* line 205, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 section#experience .circle:after, section#education .circle:after {
   content: "";
   display: block;
@@ -11017,19 +11026,19 @@ section#experience .circle:after, section#education .circle:after {
   border-radius: 50%;
   background: #1abc9c;
 }
-/* line 218, ../sass/styles.scss */
+/* line 228, ../sass/styles.scss */
 section#experience .circle.vt4:after, section#education .circle.vt4:after {
   background: url("../images/vt4.jpg");
 }
-/* line 222, ../sass/styles.scss */
+/* line 232, ../sass/styles.scss */
 section#experience .circle.vier:after, section#education .circle.vier:after {
   background: url("../images/vier.jpg");
 }
-/* line 226, ../sass/styles.scss */
+/* line 236, ../sass/styles.scss */
 section#experience .circle.diamond:after, section#education .circle.diamond:after {
   background: url("../images/diamond.jpg");
 }
-/* line 230, ../sass/styles.scss */
+/* line 240, ../sass/styles.scss */
 section#experience .circle div, section#education .circle div {
   float: left;
   width: 100%;
@@ -11043,25 +11052,25 @@ section#experience .circle div, section#education .circle div {
   font-weight: 100;
 }
 
-/* line 245, ../sass/styles.scss */
+/* line 255, ../sass/styles.scss */
 .caption {
   font-style: italic;
   font-size: 14px;
 }
 
 @media only screen and (max-width: 630px) {
-  /* line 251, ../sass/styles.scss */
+  /* line 261, ../sass/styles.scss */
   div.info-window {
     margin: 0px 10% 0px 10%;
     width: 80%;
   }
 
-  /* line 256, ../sass/styles.scss */
+  /* line 266, ../sass/styles.scss */
   section#experience .circle div, section#education .circle div {
     font-size: 16px;
   }
 
-  /* line 260, ../sass/styles.scss */
+  /* line 270, ../sass/styles.scss */
   section#skills {
     text-align: center;
   }
